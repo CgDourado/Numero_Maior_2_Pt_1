@@ -1,0 +1,23 @@
+using static System.Console;
+
+int n1 = 0;
+int n2 = 0;
+
+WriteLine("Digite o Primeiro Número:");
+n1 = Convert.ToInt32(ReadLine());
+Console.WriteLine("Digite Segundo Número:");
+n2 = Convert.ToInt32(ReadLine());
+WriteLine($"Os números digitados são, {n1} e {n2}");
+if (n1 == n2)
+{
+    WriteLine($"Os Nímeros são iguais");
+}
+else if (n1 > n2)
+{
+    WriteLine($"O Número {n1} é maior que {n2}");
+}
+else
+{
+    WriteLine($"O Número {n2} é maior que {n1}");
+}
+ReadLine();
